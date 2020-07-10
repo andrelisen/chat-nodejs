@@ -1,0 +1,8 @@
+Tutorial de chat ao vivo - utilizando NodeJS + Heroku 
+1) instalar na pasta do projeto:
+	npm init -y
+	npm install express socket.io 
+OBSERVAÇÃO:
+- se digitar code . no terminal irá abrir a pasta do projeto diretamente no vscode :)
+- no vscode se digitar exclamação(!) e pressionar enter a estrutura básica do html será inserida automaticamente 
+2) Modificou no package.json -> scripts -> retirou o test e inseriu: "start": "node server.js"
